@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.tar.gz
+*.zip
+*.log
+.DS_Store

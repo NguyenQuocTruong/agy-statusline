@@ -1,0 +1,19 @@
+{
+  "theme": "default",
+  "layout": "auto",
+  "max_lines": 2,
+  "separator": " · ",
+  "bar_style": "dots",
+  "bold": false,
+  "show_git": true,
+  "show_model": true,
+  "show_context": true,
+  "show_quota": true,
+  "show_permissions": true,
+  "show_agent_state": true,
+  "show_session": true,
+  "show_herdr": true,
+  "use_icons": true,
+  "context_warning_threshold": 75.0,
+  "quota_warning_threshold": 20.0
+}
