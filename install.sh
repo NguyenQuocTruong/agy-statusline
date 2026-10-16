@@ -6,7 +6,7 @@ set -euo pipefail
 TARGET_DIR="${HOME}/.config/agy-statusline"
 SETTINGS_DIR="${HOME}/.gemini/antigravity-cli"
 SETTINGS_FILE="${SETTINGS_DIR}/settings.json"
-REPO_NAME="truongnq/agy-statusline"
+REPO_NAME="NguyenQuocTruong/agy-statusline"
 BRANCH="main"
 
 echo "=========================================="

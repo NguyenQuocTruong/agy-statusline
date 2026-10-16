@@ -1,5 +1,5 @@
 # AGY Custom Statusline One-Line Installer for Windows (PowerShell)
-# Usage: irm https://raw.githubusercontent.com/truongnq/agy-statusline/main/install.ps1 | iex
+# Usage: irm https://raw.githubusercontent.com/NguyenQuocTruong/agy-statusline/main/install.ps1 | iex
 $ErrorActionPreference = "Stop"
 
 Write-Host "==========================================" -ForegroundColor Cyan
@@ -38,7 +38,7 @@ $tempExtract = Join-Path $env:TEMP "agy-statusline-temp"
 if (Test-Path $tempExtract) { Remove-Item -Recurse -Force $tempExtract }
 New-Item -ItemType Directory -Force -Path $tempExtract | Out-Null
 
-$zipUrl = "https://github.com/truongnq/agy-statusline/archive/refs/heads/main.zip"
+$zipUrl = "https://github.com/NguyenQuocTruong/agy-statusline/archive/refs/heads/main.zip"
 Invoke-WebRequest -Uri $zipUrl -OutFile $tempZip -UseBasicParsing
 
 Expand-Archive -Path $tempZip -DestinationPath $tempExtract -Force

@@ -40,19 +40,19 @@ An elegant, lightning-fast, and distraction-free custom statusline (footer) for 
 
 Using **curl**:
 ```bash
-curl -fsSL https://raw.githubusercontent.com/truongnq/agy-statusline/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/NguyenQuocTruong/agy-statusline/main/install.sh | bash
 ```
 
 Using **wget**:
 ```bash
-wget -qO- https://raw.githubusercontent.com/truongnq/agy-statusline/main/install.sh | bash
+wget -qO- https://raw.githubusercontent.com/NguyenQuocTruong/agy-statusline/main/install.sh | bash
 ```
 
 ### 🪟 Windows (PowerShell)
 
 Open PowerShell and run:
 ```powershell
-irm https://raw.githubusercontent.com/truongnq/agy-statusline/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/NguyenQuocTruong/agy-statusline/main/install.ps1 | iex
 ```
 
 > **Note:** The installer automatically detects Python 3, backs up your existing `~/.gemini/antigravity-cli/settings.json`, and preserves all your models, workspaces, and permission settings intact.
